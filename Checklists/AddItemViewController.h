@@ -1,5 +1,5 @@
 //
-//  ChecklistsViewController.h
+//  AddItemViewController.h
 //  Checklists
 //
 //  Created by APPLE on 13-8-12.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ChecklistsViewController : UITableViewController
+@interface AddItemViewController : UITableViewController
 
-- (IBAction)addItem;
+- (IBAction)cancel;
+- (IBAction)done;
 
 @end
